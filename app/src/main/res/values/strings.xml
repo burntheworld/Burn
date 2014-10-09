@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kipod</string>
+    <string name="default_status">burner</string>
+    <string name="google_maps_key">AIzaSyAkpJUcFROjQNsGON0BRsxnmV0IKcRxibE</string>
+    <string name="toast_flare_accepted">FLARE ACCEPTED!\nRaise your arm!</string>
+    <string name="toast_flare_declined">FLARE DECLINED ;-(</string>
+    <string name="kipod_working_notification">kipod is still working</string>
+    <string name="empty_status_notification">Set your status</string>
+    <string name="exit_action_notification">Exit</string>
+    <string name="net_error">Network error</string>
+    <string name="toast_no_user_in_event_to_flare">no users in event found</string>
+    <string name="toast_poke_sent">POKE sent</string>
+    <string name="choose_poke_title">Choose poke</string>
+    <string name="too_far_for_flare">you\'re to far</string>
+    <string name="toast_flare_sent">Flare Request sent</string>
+    <string name="notification_flare_received">Received: FLARE! accept and raise your arm</string>
+    <string name="notification_group_flare_received">Received: GROUP FLARE! accept and raise your arm</string>
+    <string name="notification_poke_received">Received: POKE!</string>
+    <string name="notification_title_poke">POKE!</string>
+    <string name="notification_title_flare">FLARE!</string>
+    <string name="button_poke">POKE</string>
+    <string name="button_flare">FLARE</string>
+    <string name="hint_set_status_dlg">Set your craziness</string>
+    <string name="no_set_status_dlg">NO WAY!</string>
+    <string name="yes_set_status_dlg">SHAZZAM!!</string>
+    <string name="event_create_dialog_explain">would you like to setup an event here?</string>
+    <string name="hint_event_descripton">event description</string>
+    <string name="end_of_event">event will end at:</string>
+    <string name="event_began">began:</string>
+    <string name="event_end">until:</string>
+    <string name="yes_exit">yes for awhile</string>
+    <string name="no_exit">NO WAY!</string>
+    <string name="exit_message">Would you like to kill your kipi?</string>
+    <string name="flare_popup_message">Accept flare?</string>
+    <string name="create_event_menu">Create Event</string>
+    <string name="nevigate_menu">Navigate here</string>
+    <string name="user_not_found">user has already gone</string>
+    <string-array name="poks">
+        <item>radically including me?</item>
+        <item>Yeah! Radical inclusion!</item>
+        <item>Come join the journey!</item>
+        <item>I enjoy a good journey (:</item>
+        <item>Poke! Ha ha! Poke poke! Ha!</item>
+        <item>Poke yourself! Ha! Take that!</item>
+    </string-array>
+</resources>

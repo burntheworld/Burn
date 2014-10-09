@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    style="?android:attr/buttonBarButtonStyle"
+    android:layout_width="wrap_content"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/create_event"
+        android:padding="@dimen/padding"
+        android:text="@string/create_event_menu"
+        android:layout_width="@dimen/zero"
+        android:layout_weight="1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/nev"
+        android:padding="@dimen/padding"
+        android:text="@string/nevigate_menu"
+        android:layout_width="@dimen/zero"
+        android:layout_weight="1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="wrap_content" />
+</LinearLayout>

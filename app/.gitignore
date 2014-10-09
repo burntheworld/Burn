@@ -1,0 +1,5 @@
+/build
+app.iml
+build.gradle
+proguard-rules.pro
+src/main/java/krk/hez/burn/Kk.java

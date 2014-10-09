@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ImageView
+        android:padding="6dp"
+        android:src="@drawable/headerblack"
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:layout_marginRight="64dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null" />
+    <ImageButton
+        android:src="@drawable/logobye_2"
+        android:layout_width="64dp"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="64dp"
+        android:onClick="exit"
+        android:scaleType="fitCenter"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_height="64dp"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/stasus1"
+        android:padding="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="bottom"
+        android:layout_height="92dp">
+
+        <ImageButton
+            android:id="@+id/icon"
+            android:onClick="setIcon"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/porcupic1"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null" />
+
+        <Button
+            android:id="@+id/status_title"
+            android:onClick="setStatus"
+            android:padding="6dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>
